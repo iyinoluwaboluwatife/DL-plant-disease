@@ -1,0 +1,31 @@
+{% extends "base.html" %} {% block content %}
+
+<section class="u-align-center u-clearfix u-palette-1-base">
+  <div class="u-clearfix u-sheet u-sheet-1">
+    <h2 class="u-text u-text-1" spellcheck="false">Project by Molomo Iyin-oluwa</h2>
+    <h2 class="u-text u-text-1" spellcheck="false">Supervised by Dr. Jubril</h2>
+    <!-- <p class="u-text u-text-2" spellcheck="false">There are 5 different plants that are trained based on the available datasets. The models are trained separately to minimize confusion and to identify the specific disease to a plant</p> -->
+  </div>
+</section>
+
+<section class="u-align-center u-clearfix u-palette-1-base u-section-1" id="sec-9257">
+    <div class="u-clearfix u-sheet u-sheet-1">
+      <div class="u-expanded-width u-palette-4-base u-shape u-shape-rectangle u-shape-1"></div>
+      <img class="u-align-left u-image u-left-0 u-image-1" data-image-width="1600" data-image-height="1000" src="{{ url_for('static', filename='images/xsx.jpg') }}">
+      <h2 class="u-text u-text-1" spellcheck="false">Plant Diseases Classifier Description</h2>
+      <p class="u-text u-text-2" spellcheck="false">There are 5 different plants that are trained based on the available datasets. The models are trained separately to minimize confusion and to identify the specific disease to a plant</p>
+      <div class="u-container-style u-group u-group-1">
+        <div class="u-container-layout u-container-layout-1">
+          <a href="/tomato" class="u-btn u-btn-round u-button-style u-custom-color-4 u-hover-palette-1-light-1 u-radius-6 u-btn-1">Tomato</a>
+          <a href="/potato" class="u-btn u-btn-round u-button-style u-custom-color-4 u-hover-palette-1-light-1 u-radius-6 u-btn-2">Potato</a>
+          <a href="/cassava" class="u-btn u-btn-round u-button-style u-custom-color-4 u-hover-palette-1-light-1 u-radius-6 u-btn-3">Cassava</a>
+          <a href="/maize" class="u-btn u-btn-round u-button-style u-custom-color-4 u-hover-palette-1-light-1 u-radius-6 u-btn-4">Maize</a>
+          <a href="/pepper" class="u-btn u-btn-round u-button-style u-custom-color-4 u-hover-palette-1-light-1 u-radius-6 u-btn-5">Pepper</a>
+        </div>
+      </div>
+  </div>
+</section>
+  
+
+
+{% endblock %}

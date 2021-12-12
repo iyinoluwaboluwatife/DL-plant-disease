@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Dropdown</title>
+</head>
+<body>
+    <select name="colour" method="GET" action="/">
+        <option value="{{tests}}" selected> tomato </option>
+        {% for colour in plants if not tomato %}
+
+        {% if colour!=tomato%}
+            <option value="{{colour|e}}">{{|e}}</option>
+        {% endif %}
+        {% endfor %}
+    </select>
+
+</body>
+</html>
